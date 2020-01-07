@@ -2,11 +2,7 @@ package com.generation.operacoesMatematicas;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class OperacoesMatematicas {
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);

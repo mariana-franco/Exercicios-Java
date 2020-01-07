@@ -3,11 +3,7 @@ package com.generation.numerosDecrescente;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class OrdemDecrescente {
 	public static void main(String[] args) {
 
 		Scanner numeros = new Scanner(System.in);

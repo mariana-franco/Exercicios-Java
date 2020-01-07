@@ -2,12 +2,9 @@ package com.generation.loginSenha;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class LoginSenha {
 	public static void main(String[] args) {
+
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("login> ");
@@ -21,5 +18,6 @@ public class App {
 		} else {
 			System.out.println("Login ou senha inválidos!");
 		}
+		entrada.close();
 	}
 }

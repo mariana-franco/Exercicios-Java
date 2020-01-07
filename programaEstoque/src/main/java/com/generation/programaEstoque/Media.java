@@ -2,12 +2,9 @@ package com.generation.programaEstoque;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class Media {
 	public static void main(String[] args) {
+
 		// int valorMaximo = 15;
 		// int valorMinimo = 7;
 		// double valorMedia = (valorMaximo + valorMinimo) / 2;
@@ -23,5 +20,7 @@ public class App {
 
 		float valorMedia = (valorMaximo + valorMinimo) / 2;
 		System.out.printf("O valor médio é: " + valorMedia);
+
+		entrada.close();
 	}
 }

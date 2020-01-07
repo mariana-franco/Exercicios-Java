@@ -2,11 +2,7 @@ package com.generation.negativoPositivo;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class NegativoPositivo {
 	public static void main(String[] args) {
 
 		int numero;

@@ -2,11 +2,7 @@ package com.generation.idadeDias;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class Idade {
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);
@@ -22,5 +18,7 @@ public class App {
 
 		int idadeTotal = (idadeAnos * 365) + (idadeMeses * 30) + idadeDias;
 		System.out.printf("A sua idade total em dias é: " + idadeTotal);
+		
+		entrada.close();
 	}
 }
